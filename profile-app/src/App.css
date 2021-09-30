@@ -4,8 +4,13 @@
   position: absolute;
   left: 0;
   width: 100%;
-  overflow: hidden;
+  overflow:scroll;
   text-align: center;
+}
+
+.info{
+  height: 100%;
+  width: 100%;
 }
 
 a{
@@ -27,11 +32,21 @@ li {
   list-style-type: none;
 }
 
+img {
+  height: 20%;
+  Width: 20%;
+  border-radius: 70%;
+  
+}
+
 .Nav {
   background-color: #9e3737;
-  height: 8%;
+  height: 4%;
   display: flex;
   justify-content: space-evenly;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
 }
 
 .Nav a:hover {

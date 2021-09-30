@@ -27,6 +27,15 @@ function Languages() {
     );
   }
 
+  function Contact() {
+    return (
+      <div className="Contact">
+        <h3>Email: </h3>
+        <p>clopez12@gmail.com</p>
+      </div>
+    );
+  }
 
-export {Education, Languages};
+
+export {Education, Languages, Contact};
 export default Education;
