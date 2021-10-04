@@ -3,9 +3,9 @@ import '../App.css';
 function Nav() {
   return (
     <div class="Nav">
-        <a href="#">Work</a>
-        <a href="#">In</a>
-        <a href="#">Progress</a>
+        <a href="/">Home</a>
+        <a href="/edu">Education</a>
+        <a href="/lang">Languages</a>
     </div>
   );
 }
